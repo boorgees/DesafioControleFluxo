@@ -1,18 +1,17 @@
-## Getting Started
+# Desafio de Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um desafio de programação em Java que consiste em criar um programa que conta de um número para outro, imprimindo cada número no intervalo.
 
-## Folder Structure
+## Tecnologias Utilizadas
 
-The workspace contains two folders by default, where:
+- **Java**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Lógica do Desafio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa recebe dois parâmetros do usuário, representando o primeiro e o último número do intervalo de contagem. Em seguida, verifica se o segundo parâmetro é maior que o primeiro. Se não for, lança uma exceção indicando que o segundo parâmetro deve ser maior que o primeiro. Caso contrário, inicia uma contagem do primeiro para o último número, imprimindo cada número no intervalo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O programa usa tratamento de exceções para lidar com a situação em que o segundo parâmetro é menor ou igual ao primeiro, garantindo que a contagem seja feita corretamente apenas quando os parâmetros fornecidos pelo usuário estão corretos.
 
-## Dependency Management
+Este desafio é uma ótima oportunidade para praticar a manipulação de exceções em Java e o uso de estruturas de controle de fluxo para realizar uma contagem de números em um intervalo especificado.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+✨🚀📝
